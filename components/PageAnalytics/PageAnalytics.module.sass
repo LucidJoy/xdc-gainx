@@ -1,0 +1,48 @@
+@import ../../styles/helpers
+
+.main
+    position: relative
+    margin-bottom: 64px
+    padding: 208px 0 125px
+    background-color: $n3
+    overflow: hidden
+    +d
+        padding: 160px 0 64px
+    +m
+        margin-bottom: 32px
+        padding: 104px 0 18px
+    +dark
+        background-color: $n9
+
+.heading 
+    margin-top: -50px
+    margin-bottom: 20px
+    font-size: 40px 
+    height: 40px
+    font-weight: bold
+    background: linear-gradient(90deg, #ec652c, #3C4FC3, #3c4fc3, #3c4fc3)
+    background-clip: text
+    -webkit-background-clip: text
+    color: transparent
+    letter-spacing: 2px
+
+.promptDiv
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 10px
+    margin-bottom: 50px
+
+    textarea
+        padding: 15px
+        min-width: 500px
+        max-width: 600px
+        max-height: 100px
+        min-height: 100px
+        background: transparent
+        color: white
+        font-size: 16px
+        border: 2px solid #353945
+        border-radius: 10px
+
