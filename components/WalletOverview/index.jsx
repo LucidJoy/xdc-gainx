@@ -73,7 +73,7 @@ const WalletOverview = () => {
           </div>
         </div>
         <div className={styles.details}>
-          <div className={styles.info}>Total Earnings (in GLMR)</div>
+          <div className={styles.info}>Total Earnings (in XDC)</div>
           <div className={styles.currency}>
             <div className={styles.number}>109.2789</div>
             <div className={cn("category-green", styles.category)}>15%</div>

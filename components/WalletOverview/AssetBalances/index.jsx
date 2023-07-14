@@ -99,7 +99,7 @@ const AssetBalances = ({ overview, lender, borrower }) => {
                 <div className={styles.info}>{`${(
                   (x.amount * ethToUsd) /
                   glmrToUsd
-                ).toFixed(2)} GLMR`}</div>
+                ).toFixed(2)} XDC`}</div>
                 <div className={styles.info} style={{ color: "orange" }}>
                   {x.amount} ETH
                 </div>

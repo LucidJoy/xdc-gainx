@@ -126,7 +126,7 @@ const Card = ({ className, item, bigPreview, saleItem, offer }: CardProps) => {
         <div className={styles.stat}>
           <div className={cn("label-purple", styles.code)}>#{item.code}</div>
           <div className={styles.crypto}>
-            {((offer.amount * ethToUsd) / glmrToUsd).toFixed(2)} GLMR
+            {((offer.amount * ethToUsd) / glmrToUsd).toFixed(2)} XDC
           </div>
           <div
             className={styles.crypto}

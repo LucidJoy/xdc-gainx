@@ -56,7 +56,7 @@ const Confirm = ({ setStateModal }: ModalType) => {
         </div>
         <div>
           <div className={cn("h6", styles.crypto)} style={{ width: "230px" }}>
-            {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} GLMR
+            {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} XDC
           </div>
           <div
             className={styles.crypto}
@@ -88,7 +88,7 @@ const Confirm = ({ setStateModal }: ModalType) => {
         You are buying{" "}
         <span style={{ color: "#fff" }}>{activeObject.title}</span> for{" "}
         <span style={{ color: "#fff" }}>
-          {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} GLMR.{" "}
+          {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} XDC.{" "}
         </span>
       </div>
     </>
@@ -110,7 +110,7 @@ const Waiting = ({}) => {
         You are lending <span className={styles.red}>{activeObject.title}</span>{" "}
         tokens worth of{" "}
         <span style={{ color: "#fff" }} className={styles.dark}>
-          {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} GLMR.{" "}
+          {((activeObject.amount * ethToUsd) / glmrToUsd).toFixed(2)} XDC.{" "}
         </span>
       </div>
     </div>

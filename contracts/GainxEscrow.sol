@@ -33,7 +33,7 @@ contract GainxEscrow is
         ethUsd = AggregatorV3Interface(
             0x0BAA6E884cfD628b33867F9E081B44a76276fA2D
         );
-        // GLMR(Glimmer -> Moonbeam token)
+        // XDC(Glimmer -> Moonbeam token)
         glmrUsd = AggregatorV3Interface(
             0x537879A0beA294c1ce04161Ae827919e92C23e92
         );
@@ -62,7 +62,7 @@ contract GainxEscrow is
         return answer;
     }
 
-    function getGLMRtoUSD() public view returns (int) {
+    function getXDCtoUSD() public view returns (int) {
         // prettier-ignore
         // divide by 10^3
         (
@@ -105,7 +105,7 @@ contract GainxEscrow is
         _lockFutureApy(_escrowId, _apy); // Future for APY
 
         int256 ethInUsd = getETHtoUSD();
-        int256 glmrInUsd = getGLMRtoUSD();
+        int256 glmrInUsd = getXDCtoUSD();
         int256 finalAmount = (_amount * ethInUsd) / glmrInUsd;
 
         Escrow memory newEscrow = Escrow(

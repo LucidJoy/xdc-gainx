@@ -68,7 +68,7 @@ const Description = ({
         className={cn("h4", styles.crypto)}
         style={{ display: "flex", fontSize: "30px", gap: "8px" }}
       >
-        {crypto} <span>GLMR</span>
+        {crypto} <span>XDC</span>
       </div>
       <div
         className={cn("h4", styles.crypto)}

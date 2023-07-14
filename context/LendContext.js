@@ -18,10 +18,9 @@ const CreateLendContext = createContext({});
 // gainxEscrow = 0x48Dffb4Bd4B02561083B983a7e6CC68AEDd84331
 
 // const gainxContractAddress = "0x39EB736E460115CFa46D20e96548C3efAE56A3F4";
-const gainxContractAddressXDC = "xdcCfc6042f7f2113240fc2dB6FC0303F4FcbAB1f5b";
+const gainxContractAddressXDC = "0x6CFD7ebe4dA3C3eF58f3796214580eD7fAa9f242";
 // const gainxTokenContractAddress = "0xd4e6eC0202F1960dA896De13089FF0e4A07Db4E9";
-const redeemGainxContractAddress =
-  "xdcd376E06D3eaeAC3A5aF05C1beC85316146cde378";
+const redeemGainxContractAddress = "0xEC6C1001a15c48D4Ea2C7CD7C45a1c5b6aD120E9";
 
 // Gas-limit: 500000000
 
@@ -429,6 +428,8 @@ export const CreateLendProvider = ({ children }) => {
           signer
         );
 
+        console.log("Console log 1");
+
         if (ethereum.isConnected()) {
           const accounts = await window.ethereum.request({
             method: "eth_accounts",
@@ -437,8 +438,22 @@ export const CreateLendProvider = ({ children }) => {
           _borrower = accounts[0];
         }
 
+        console.log("Console log 2");
+
         estAmt = utils.parseEther(estAmt); // string
         let listingPrice = utils.parseEther("0.01");
+
+        console.log("Console log 3");
+
+        console.log(
+          "Log of all the fields: ",
+          _borrower,
+          estAmt,
+          nftAddress,
+          nftId,
+          tenure,
+          apy
+        );
 
         const txRes = await contract._initEscrow(
           _borrower,
@@ -447,16 +462,18 @@ export const CreateLendProvider = ({ children }) => {
           nftId,
           tenure,
           apy,
-
           {
-            value: listingPrice,
             gasLimit: 3000000,
           }
         );
 
+        console.log("Console log 4");
+
         setIsLoading(true);
-        await txRes.wait(1);
+        // await txRes.wait();
         setIsLoading(false);
+
+        console.log("Console log 5");
 
         route.push("/marketplace");
 
@@ -519,7 +536,7 @@ export const CreateLendProvider = ({ children }) => {
         });
 
         setIsLoading(true);
-        await txRes.wait(1);
+        // await txRes.wait(1);
         setIsLoading(false);
 
         console.log(txRes);
@@ -575,7 +592,7 @@ export const CreateLendProvider = ({ children }) => {
         });
 
         setIsLoading(true);
-        await txRes.wait(1);
+        // await txRes.wait(1);
         setIsLoading(false);
 
         console.log(txRes);
@@ -627,7 +644,7 @@ export const CreateLendProvider = ({ children }) => {
         });
 
         setIsLoading(true);
-        await txRes.wait(1);
+        // await txRes.wait(1);
         setIsLoading(false);
 
         console.log(txRes);
@@ -669,7 +686,7 @@ export const CreateLendProvider = ({ children }) => {
         });
 
         setIsLoading(true);
-        await txRes.wait(1);
+        // await txRes.wait(1);
         setIsLoading(false);
 
         console.log(txRes);
@@ -724,7 +741,7 @@ export const CreateLendProvider = ({ children }) => {
 
   useEffect(() => {
     getETHtoUSD();
-    getGLMRtoUSD();
+    getXDCtoUSD();
     getLINKtoUSD();
   }, []);
 
@@ -755,7 +772,7 @@ export const CreateLendProvider = ({ children }) => {
     }
   };
 
-  const getGLMRtoUSD = async () => {
+  const getXDCtoUSD = async () => {
     try {
       if (window.ethereum) {
         const web3Modal = new Web3Modal();
@@ -769,9 +786,9 @@ export const CreateLendProvider = ({ children }) => {
           signer
         );
 
-        const response = await contract.getGLMRtoUSD();
+        const response = await contract.getXDCtoUSD();
         console.log(
-          "getGLMRtoUSD -> ",
+          "getXDCtoUSD -> ",
           (response.toNumber() / 10 ** 8).toFixed(2)
         );
 
@@ -839,7 +856,7 @@ export const CreateLendProvider = ({ children }) => {
           gasLimit: 3000000,
         });
 
-        await txRes.wait();
+        // await txRes.wait();
 
         console.log(txRes);
         return true;
