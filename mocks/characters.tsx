@@ -2,7 +2,7 @@ const characters = [
   {
     title: "BAYC #5033",
     code: "0",
-    crypto: "47.68 ETH",
+    crypto: "47.68 XDC",
     price: 47.68,
     image: {
       src: "https://ipfs.io/ipfs/QmRWSXn26HaBdLrR42g3A2fM9aBUvrYpRPE6QMZvv9C6Zo",
@@ -16,7 +16,7 @@ const characters = [
   {
     title: "BAYC #1368",
     code: "1",
-    crypto: "47.88 ETH",
+    crypto: "47.88 XDC",
     price: 47.88,
     image: {
       src: "https://ipfs.io/ipfs/QmQrDv9rgW9Y6vpDoh4ouJwZnaeS1hn3ovzEei97Yzwwt6",
@@ -30,7 +30,7 @@ const characters = [
   {
     title: "BAYC #7737",
     code: "2",
-    crypto: "48 ETH",
+    crypto: "48 XDC",
     price: 48,
     image: {
       src: "https://ipfs.io/ipfs/QmdnZNcduJ8sVA2D3qk9jVvJcsHMjyBMGqWyKCXB9U4WCj",
@@ -44,7 +44,7 @@ const characters = [
   {
     title: "BAYC #170",
     code: "3",
-    crypto: "49.87 ETH",
+    crypto: "49.87 XDC",
     price: 49.87,
     image: {
       src: "https://ipfs.io/ipfs/QmaqjNA6YJEmMcc9gjS3juREH11GxCsVUooZPZuYnNejKa",
@@ -58,7 +58,7 @@ const characters = [
   {
     title: "BAYC #6360",
     code: "4",
-    crypto: "49.9 ETH",
+    crypto: "49.9 XDC",
     price: 49.9,
     image: {
       src: "https://ipfs.io/ipfs/QmTpJm5UeNWVu2nxGwHeXmwJXZ1B189Dw8PBeyS42ivCZ9",
@@ -72,7 +72,7 @@ const characters = [
   {
     title: "BAYC #2836",
     code: "5",
-    crypto: "49.98 ETH",
+    crypto: "49.98 XDC",
     price: 49.98,
     image: {
       src: "https://ipfs.io/ipfs/QmYipSwcyLsv9FYndT1aUrA5FpBFAA2zYGstq1enjPLTyj",
@@ -86,7 +86,7 @@ const characters = [
   {
     title: "BAYC #9301",
     code: "6",
-    crypto: "0.32 ETH",
+    crypto: "0.32 XDC",
     price: 678.12,
     image: {
       src: "https://ipfs.io/ipfs/QmSe8HJgZEJ7jcd9xq2q8KhUjACRAZEEcRBW4SZqswe2hr",
@@ -100,7 +100,7 @@ const characters = [
   {
     title: "BAYC #250",
     code: "7",
-    crypto: "50 ETH",
+    crypto: "50 XDC",
     price: 50,
     image: {
       src: "https://ipfs.io/ipfs/QmS6AzGLuh7N4hn4S5ZxvwC87J5eaFHxsnRpac4UKvBRS5",
@@ -114,7 +114,7 @@ const characters = [
   {
     title: "BAYC #9469",
     code: "8",
-    crypto: "50.29 ETH",
+    crypto: "50.29 XDC",
     price: 50.29,
     image: {
       src: "https://ipfs.io/ipfs/QmdKV7vpwY3Kd8bSPFFwy1WWymG1Qpb57R1rBe6S9eu1jq",
@@ -128,7 +128,7 @@ const characters = [
   {
     title: "BAYC #6386",
     code: "9",
-    crypto: "50.34 ETH",
+    crypto: "50.34 XDC",
     price: 50.34,
     image: {
       src: "https://ipfs.io/ipfs/QmS5BDtXBS4k2Z2JrxsG4gPgCcMHYTWt5WQej3yoFp7GCE",
@@ -142,7 +142,7 @@ const characters = [
   // {
   //   title: "Electric Toon",
   //   code: "10",
-  //   crypto: "0.65 ETH",
+  //   crypto: "0.65 XDC",
   //   price: 678.12,
   //   image: {
   //     src: "/images/content/characters/image-11.png",
@@ -156,7 +156,7 @@ const characters = [
   // {
   //   title: "Pixelated Toon",
   //   code: "11",
-  //   crypto: "0.25 ETH",
+  //   crypto: "0.25 XDC",
   //   price: 478.78,
   //   image: {
   //     src: "/images/content/characters/image-12.png",
@@ -170,7 +170,7 @@ const characters = [
   // {
   //   title: "Neon Toon",
   //   code: "12",
-  //   crypto: "0.32 ETH",
+  //   crypto: "0.32 XDC",
   //   price: 678.12,
   //   image: {
   //     src: "/images/content/characters/image-13.png",
@@ -184,7 +184,7 @@ const characters = [
   // {
   //   title: "Enchanted Toon",
   //   code: "13",
-  //   crypto: "0.66 ETH",
+  //   crypto: "0.66 XDC",
   //   price: 1008.77,
   //   image: {
   //     src: "/images/content/characters/image-14.png",
@@ -198,7 +198,7 @@ const characters = [
   // {
   //   title: "Lumburr Toon",
   //   code: "14",
-  //   crypto: "0.32 ETH",
+  //   crypto: "0.32 XDC",
   //   price: 678.12,
   //   image: {
   //     src: "/images/content/characters/image-15.png",

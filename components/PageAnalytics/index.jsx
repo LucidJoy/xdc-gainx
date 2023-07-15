@@ -43,8 +43,17 @@ const PageAnalytics = () => {
     };
     console.log(requestBody);
 
+    const config = {
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*', // Set the appropriate allowed origin or '*' for any origin
+        'Access-Control-Allow-Methods': 'POST', // Set the allowed HTTP methods
+        'Access-Control-Allow-Headers': 'Content-Type', // Set the allowed headers
+      },
+    };
+
     try {
-      const response = await axios.post(url, requestBody);
+      const response = await axios.post(url, requestBody, config);
       setResults(response.data);
       console.log("axios res -> ", response.data);
       setIsPrompt(true);

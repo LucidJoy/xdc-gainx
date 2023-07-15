@@ -2,7 +2,7 @@ const bundles = [
     {
         title: "Combo 078928",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -30,7 +30,7 @@ const bundles = [
     {
         title: "Combo 032156",
         code: "03256",
-        crypto: "0.45 ETH",
+        crypto: "0.45 XDC",
         price: 865.14,
         status: [
             {
@@ -54,7 +54,7 @@ const bundles = [
     {
         title: "Combo 078928",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -82,7 +82,7 @@ const bundles = [
     {
         title: "Combo 032156",
         code: "03256",
-        crypto: "0.45 ETH",
+        crypto: "0.45 XDC",
         price: 865.14,
         status: [
             {
@@ -106,7 +106,7 @@ const bundles = [
     {
         title: "Combo 078928",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -134,7 +134,7 @@ const bundles = [
     {
         title: "Combo 032156",
         code: "03256",
-        crypto: "0.45 ETH",
+        crypto: "0.45 XDC",
         price: 865.14,
         status: [
             {
@@ -158,7 +158,7 @@ const bundles = [
     {
         title: "Combo 078928",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -186,7 +186,7 @@ const bundles = [
     {
         title: "Combo 032156",
         code: "03256",
-        crypto: "0.45 ETH",
+        crypto: "0.45 XDC",
         price: 865.14,
         status: [
             {

@@ -2,7 +2,7 @@ const items = [
     {
         title: "Gunny",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -27,7 +27,7 @@ const items = [
     {
         title: "Bazuka",
         code: "01235",
-        crypto: "0.54 ETH",
+        crypto: "0.54 XDC",
         price: 856.12,
         status: [
             {
@@ -48,7 +48,7 @@ const items = [
     {
         title: "HP",
         code: "015690",
-        crypto: "1.23 ETH",
+        crypto: "1.23 XDC",
         price: 1211.55,
         status: [
             {
@@ -69,7 +69,7 @@ const items = [
     {
         title: "Sword",
         code: "07732",
-        crypto: "2.23 ETH",
+        crypto: "2.23 XDC",
         price: 2211.55,
         status: [
             {
@@ -90,7 +90,7 @@ const items = [
     {
         title: "Shield",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -111,7 +111,7 @@ const items = [
     {
         title: "Axe",
         code: "01235",
-        crypto: "0.54 ETH",
+        crypto: "0.54 XDC",
         price: 422.12,
         status: [
             {
@@ -132,7 +132,7 @@ const items = [
     {
         title: "Bow",
         code: "015690",
-        crypto: "1.23 ETH",
+        crypto: "1.23 XDC",
         price: 1211.55,
         status: [
             {
@@ -153,7 +153,7 @@ const items = [
     {
         title: "Hp",
         code: "07732",
-        crypto: "2.23 ETH",
+        crypto: "2.23 XDC",
         price: 2211.55,
         status: [
             {
@@ -174,7 +174,7 @@ const items = [
     {
         title: "Bomb",
         code: "015690",
-        crypto: "1.23 ETH",
+        crypto: "1.23 XDC",
         price: 1211.55,
         status: [
             {
@@ -195,7 +195,7 @@ const items = [
     {
         title: "Flag",
         code: "07732",
-        crypto: "2.23 ETH",
+        crypto: "2.23 XDC",
         price: 2211.55,
         status: [
             {
@@ -216,7 +216,7 @@ const items = [
     {
         title: "Lightsaber",
         code: "07892",
-        crypto: "0.1 ETH",
+        crypto: "0.1 XDC",
         price: 286.99,
         status: [
             {
@@ -237,7 +237,7 @@ const items = [
     {
         title: "Boomerang",
         code: "01235",
-        crypto: "0.54 ETH",
+        crypto: "0.54 XDC",
         price: 422.12,
         status: [
             {

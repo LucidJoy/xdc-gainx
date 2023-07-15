@@ -64,12 +64,12 @@ const Description = ({
       <h1 className={cn(!small ? "h1" : "h3", styles.title)}>{title}</h1>
     </div>
     <div className={styles.prices}>
-      <div
+      {/* <div
         className={cn("h4", styles.crypto)}
         style={{ display: "flex", fontSize: "30px", gap: "8px" }}
       >
         {crypto} <span>XDC</span>
-      </div>
+      </div> */}
       <div
         className={cn("h4", styles.crypto)}
         style={{
@@ -80,7 +80,7 @@ const Description = ({
           color: "orange",
         }}
       >
-        {inEthers} <span>ETH</span>
+        {inEthers} <span>XDC</span>
       </div>
       <div className={styles.price}>{numberWithCommas(price)}</div>
     </div>

@@ -125,9 +125,9 @@ const Card = ({ className, item, bigPreview, saleItem, offer }: CardProps) => {
       <div className={cn("details_bottom", styles.details_bottom)}>
         <div className={styles.stat}>
           <div className={cn("label-purple", styles.code)}>#{item.code}</div>
-          <div className={styles.crypto}>
+          {/* <div className={styles.crypto}>
             {((offer.amount * ethToUsd) / glmrToUsd).toFixed(2)} XDC
-          </div>
+          </div> */}
           <div
             className={styles.crypto}
             style={{
@@ -136,7 +136,7 @@ const Card = ({ className, item, bigPreview, saleItem, offer }: CardProps) => {
               marginLeft: "7px",
             }}
           >
-            {offer.amount} ETH
+            {offer.amount} XDC
           </div>
         </div>
         <div className={styles.info}>

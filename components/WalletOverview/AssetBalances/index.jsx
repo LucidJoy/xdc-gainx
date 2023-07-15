@@ -96,12 +96,12 @@ const AssetBalances = ({ overview, lender, borrower }) => {
                 )}
               </div>
               <div className={styles.col}>
-                <div className={styles.info}>{`${(
+                {/* <div className={styles.info}>{`${(
                   (x.amount * ethToUsd) /
                   glmrToUsd
-                ).toFixed(2)} XDC`}</div>
+                ).toFixed(2)} XDC`}</div> */}
                 <div className={styles.info} style={{ color: "orange" }}>
-                  {x.amount} ETH
+                  {x.amount} XDC
                 </div>
               </div>
               <div className={styles.col}>
@@ -109,7 +109,7 @@ const AssetBalances = ({ overview, lender, borrower }) => {
               </div>
               <div className={styles.col}>
                 <div className={styles.info}>{`${
-                  x.isInsuared ? "True" : "Not Insured"
+                  x.isInsuared ? "Insured" : "Not Insured"
                 }`}</div>
               </div>
               <div className={styles.col}>

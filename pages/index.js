@@ -32,30 +32,6 @@ export default function Home() {
         <PageGameplay />
       </Layout>
 
-      <CookieConsent
-        location="bottom"
-        buttonText="Accept"
-        cookieName="gainxCookie"
-        style={{
-          background: "#35373d",
-          fontSize: "15px",
-          border: "1px solid red",
-        }}
-        buttonStyle={{
-          color: "#35373d",
-          fontSize: "14px",
-          background: "#E45F35",
-          padding: "7px 15px",
-          fontWeight: "600",
-          borderRadius: "6px",
-        }}
-        expires={150}
-      >
-        ⚠️ GainX Liquidity pool currently have 1 XDC Test token due to faucet
-        limits. Therefore, it is very likely that large transactions might fail
-        at this moment. Perform lending functionality on demo listings (0.01,
-        0.02 XDC) only.
-      </CookieConsent>
     </>
   );
 }
